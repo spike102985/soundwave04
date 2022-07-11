@@ -1,0 +1,129 @@
+
+
+.full-fit-page-son{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+
+.call-to-action{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+
+.title{
+    font-size: 4rem;
+    margin:0;
+    font-weight: bolder;
+
+}
+
+.title::after{
+    content: "fun.";
+    color: hsl(328, 53%, 48%);
+    font-size: 4rem;
+    font-weight: bolder;
+
+    
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    background-color: #202027;
+    width: 50vw;
+    max-width: 50%;
+    padding: 2.5rem 4.5rem;
+    border-radius: 20px;
+
+}
+
+.label{
+    font-size: 1.3rem;
+    font-weight: bolder;
+    margin-bottom: 5px;
+}
+
+.input{
+    padding: 0.3rem 0.7rem;
+    font-size: 1.4rem;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    border: 1px solid #2E3852;
+    background-color: #202027;
+    color: inherit;
+    margin-bottom: 30px;
+
+}
+
+.input:focus{
+    border: 1px solid#1B66AC;
+}
+
+.join-btn{
+    text-decoration: none;
+    color: inherit;
+    background-color: #1762A7;
+    padding: 0.8rem 1.3rem;
+    border-radius: 10px;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.join-btn:hover{
+    background-color: #2180D8;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: #202027;
+    align-items: center;
+    padding: 0.5rem 8rem;
+}
+
+.contact-link-list{
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding:0;
+
+}
+
+.contact-link, .media-link{
+    text-decoration: none;
+    padding: 1rem;
+    color: inherit;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.media-link-list{
+    display: flex;
+    align-items: center;
+}
+.media-logo{
+    width: 15px;
+}
+
+.contact-link:hover, .media-link:hover{
+    color:#e0d1d1;
+}

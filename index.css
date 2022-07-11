@@ -1,0 +1,51 @@
+
+
+
+.image-wrapper{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.lady-image{
+    max-width: 30vw;
+    max-height: 70vh;
+    flex-grow: 1;
+    background-image: url(images/landing-page-girl.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.call-to-action{
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+
+}
+.title{
+    font-size: 3.5rem;
+    margin:0;
+    margin-bottom: 30px;
+    font-weight: 400;
+}
+
+.subtitle{
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.join-btn{
+    text-decoration: none;
+    color: inherit;
+    background-color: #1762A7;
+    padding: 0.8rem 1.3rem;
+    border-radius: 10px;
+    font-size: 1rem;
+    align-self: flex-start;
+}
+
+.join-btn:hover{
+    background-color: #2180D8;
+}
